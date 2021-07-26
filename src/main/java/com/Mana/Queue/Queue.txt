@@ -1,0 +1,7 @@
+Queue
+-FIFO
+-Abstract data Type
+-MEthods:
+    -remove: remove from front
+    -peek: get front ite m
+    -add: add item to the end

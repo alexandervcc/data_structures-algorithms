@@ -1,4 +1,4 @@
-package com.mycompany.Algorithms;
+package com.Mana.Algorithms;
 
 public class ShellSort {
     public static void main(String[] args) {
