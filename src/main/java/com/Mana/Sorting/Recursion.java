@@ -1,4 +1,4 @@
-package com.Mana.Algorithms;
+package com.Mana.Sorting;
 
 public class Recursion {
     public static void main(String[] args) {

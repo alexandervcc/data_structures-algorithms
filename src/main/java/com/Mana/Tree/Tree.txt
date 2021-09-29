@@ -1,0 +1,15 @@
+Tree
+-Eg:    Filesystem in drive
+-Every item is a node
+-Leaf no children
+-Only one root
+-PATH: sequence of nodes, to go a->b
+-ROOT PATH: sequence from b->root
+-NO cyclic paths
+-DEPTH: number of edges from node to root
+    root: 0
+-HEIGTH: number edges from node to a node
+-Height tree: root -> farest leaf
+-LEVEL: nodes at the same depth
+-Ancestors
+-Descendents

@@ -1,9 +1,9 @@
 package com.Mana.LinkedList.DoubleLinkedList;
 
 public class Node {
-    private Dog dog;
-    private Node next;
-    private Node prev;
+    public Dog dog;
+    public  Node next;
+    public  Node prev;
 
     public Node(Dog dog) {
         this.dog = dog;

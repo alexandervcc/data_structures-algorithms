@@ -87,4 +87,25 @@ public class DoubleLinkedDogs {
         }
         System.out.print("null");
     }
+
+    public void addBefore(Dog dog,Dog before){
+        if(head==null) {
+            return;
+        }
+        Node aux=head;
+        while(aux!=null&&!aux.getNext().getDog().equals(before)){
+            aux=aux.getNext();
+        }
+        if(aux==null){
+            return;
+        }
+        Node node=new Node(dog);
+        node.setPrev(aux);
+        node.setNext(aux.getNext());
+        aux.getNext().setPrev(node);
+        aux.setNext(node);
+
+
+
+    }
 }

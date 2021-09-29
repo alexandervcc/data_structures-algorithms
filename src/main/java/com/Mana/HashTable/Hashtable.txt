@@ -1,0 +1,22 @@
+HAstable
+-Retriaval: O(1): CONSTANT TIME
+-Worts case: O(n)
+-Abstracta data type
+-Access using keys
+-Key value pairs
+-Provide key, to ge value
+-Quickly
+-Ooptimize for retriaval when knowking key
+-Key not necessay an Integer
+-Names: dictionary/maps
+
+HASHING
+    -hash function maps key to int
+    -collision
+
+Load Factor
+    -How full hash table is
+    -items/capacity=size/capacity
+    -decide when to resize
+    -not too low(too empty) or high(collision)
+    -

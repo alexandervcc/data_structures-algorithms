@@ -2,7 +2,6 @@ package com.Mana.Stacks.StackList;
 
 import com.Mana.Dog;
 
-import java.util.EmptyStackException;
 import java.util.LinkedList;
 
 public class LinkedStack {

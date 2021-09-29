@@ -1,0 +1,22 @@
+Binary Tree
+-Node has 0, 1 or 2 children
+-Children: left or rigth
+-Complete: every level except leaf has  is filled
+    -To the left as possible
+-Full binary tree: every level expect leaf has 2 children
+
+
+Binary Search Tree
+-Allow: insertion, deelton, retriaval in O(logn)
+-left: smaller than parent
+-right: greater parent
+
+ADVANCED:
+-AVL Trees
+-Red-Black Trees
+
+TRAVERSAL:
+-Level: visit nodes on each level
+-Pre:   visit root of every subtree first
+-Post:  visit root of every subtree last
+-In:    visit left child, root, right

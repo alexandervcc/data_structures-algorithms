@@ -1,7 +1,30 @@
 Queue
 -FIFO
+-O(1):  NO resize
+-O(n):  YES resize
 -Abstract data Type
 -MEthods:
     -remove: remove from front
     -peek: get front ite m
     -add: add item to the end
+-Indexes:
+    -front: 0
+    -back:  length
+
+LinkedList
+    -Perfect for Queue
+
+Queue Interface
+    -ArrayBlockingQueue
+        no change capacity
+        used with threads accessing queue
+        producer-consumer scenary
+        blocking scenary
+    -Concurrent linkQueue
+        based on LinkedList
+        Concurrent
+        No blocking algorithm
+Dequeue interface
+    -support insertion/remove fro both sides
+    -resizable
+    -

@@ -1,7 +1,6 @@
 package com.Mana.Stacks.StackList;
 
 import com.Mana.Dog;
-import com.Mana.Stacks.StackArray.ArrayStack;
 
 public class Main {
     public static void main(String[] args) {
